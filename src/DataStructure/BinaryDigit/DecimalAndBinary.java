@@ -21,6 +21,11 @@ public class DecimalAndBinary {
         System.out.println(decimalToBinary(number));
     }
 
+    /*
+    * Đổi từ số trong hệ thập phân sang hệ nhị phân:
+    * Chúng ta sẽ chia số đó liên tục cho 2 và ghi lại số dư (0 hoặc 1).
+    * Sau đó, chúng ta ghi lại các số dư từ phép chia cuối cùng lên đầu tiên.
+    */
 
     public static int decimalToBinary(int decimal) {
         if (decimal == 0) {
@@ -40,9 +45,5 @@ public class DecimalAndBinary {
 }
 
 
-/*
- * Đổi từ số trong hệ thập phân sang hệ nhị phân:
- * Chúng ta sẽ chia số đó liên tục cho 2 và ghi lại số dư (0 hoặc 1).
- * Sau đó, chúng ta ghi lại các số dư từ phép chia cuối cùng lên đầu tiên.
- */
+
 
